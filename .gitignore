@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/Decorator/.vs/Decorator/CopilotIndices/17.12.53.23981
+/src/Decorator/.vs/Decorator/FileContentIndex
+/src/Decorator/.vs/Decorator/v17
+/src/Decorator/Decorator.Api/obj
+/src/Decorator/.vs/Decorator/DesignTimeBuild
