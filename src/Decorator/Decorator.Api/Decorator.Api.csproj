@@ -12,7 +12,8 @@
 
 	<ItemGroup>
         <ProjectReference Include="..\Decorator.BusinessLayer\Decorator.BusinessLayer.csproj" />
-        <ProjectReference Include="..\Decorator.ClassLibrary\Decorator.ClassLibrary.csproj" />
+		<ProjectReference Include="..\Decorator.DataAccessLayer\Decorator.DataAccessLayer.csproj" />
+		<ProjectReference Include="..\Decorator.ClassLibrary\Decorator.ClassLibrary.csproj" />
     </ItemGroup>
 
 </Project>
