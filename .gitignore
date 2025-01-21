@@ -8,3 +8,11 @@
 /src/Decorator/.vs/Decorator/v17
 /src/Decorator/Decorator.Api/obj
 /src/Decorator/.vs/Decorator/DesignTimeBuild
+/src/Decorator/Decorator.BusinessLayer/obj
+/src/Decorator/.vs
+/src/Decorator/Decorator.Api/bin/Debug/net9.0
+/src/Decorator/Decorator.BusinessLayer/bin/Debug/net9.0
+/src/Decorator/Decorator.ClassLibrary/bin/Debug/net9.0
+/src/Decorator/Decorator.ClassLibrary/obj
+/src/Decorator/Decorator.DataAccessLayer/bin/Debug/net9.0
+/src/Decorator/Decorator.DataAccessLayer/obj
