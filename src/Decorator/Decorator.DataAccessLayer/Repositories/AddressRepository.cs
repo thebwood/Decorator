@@ -40,13 +40,14 @@ namespace Decorator.DataAccessLayer.Repositories
             var take = requestDTO.PageSize;
 
             List<AddressModel> addresses = await _addressDbContext.Addresses
-                                                //.Where(a => a.StreetAddress.Contains(requestDTO.SearchText, StringComparison.OrdinalIgnoreCase) ||
-                                                //    a.City.Contains(requestDTO.SearchText, StringComparison.OrdinalIgnoreCase) ||
-                                                //    a.State.Contains(requestDTO.SearchText, StringComparison.OrdinalIgnoreCase))
-                                                .OrderBy(a => a.Id)
-                                                .Skip(skip)
-                                                .Take(take)
-                                                .ToListAsync();
+                .Where(a => a.StreetAddress.ToLower().Contains(requestDTO.SearchText.ToLower()) ||
+                            a.City.ToLower().Contains(requestDTO.SearchText.ToLower()) ||
+                            a.State.ToLower().Contains(requestDTO.SearchText.ToLower()))
+                .OrderBy(a => a.Id)
+                .Skip(skip)
+                .Take(take)
+                .ToListAsync();
+
 
             return addresses;
         }
