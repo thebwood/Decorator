@@ -1,6 +1,7 @@
 ﻿using Decorator.BusinessLayer.Decorators;
 using Decorator.BusinessLayer.Services;
 using Decorator.BusinessLayer.Services.Interfaces;
+using Decorator.ClassLibrary.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Decorator.BusinessLayer.Extensions
